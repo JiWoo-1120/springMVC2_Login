@@ -1,9 +1,8 @@
 package hello.login;
 
-import hello.login.web.LogInterceptor;
+import hello.login.web.interceptor.LogInterceptor;
 import hello.login.web.filter.LogFilter;
 import hello.login.web.filter.LoginCheckFilter;
-import lombok.extern.java.Log;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
